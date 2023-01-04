@@ -202,3 +202,29 @@ margin-top: 30px;
     margin-top: 30px;
     text-align: center;
 }
+
+/* contact style  */
+.contact-section{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact-section .section-title{
+    text-align: left;
+}
+
+.connect a{
+    text-decoration: none;
+}
+.contact-section input[type='text'],input[type='email'],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: none;
+    color: #757575;
+}
+
+input{
+    height: 30px;
+}
