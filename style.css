@@ -48,6 +48,9 @@
   transition: .5s ease-in-out;
   color: #fff;
   border: 0;
+  -webkit-transition: 0.5s all ease 0s;
+  -moz-transition: 0.5s all ease 0s;
+  -ms-transition: 0.5s all ease 0s;
 }
 
 .header {
@@ -64,6 +67,10 @@ nav {
   justify-content: space-between;
   padding: 50px 200px;
 }
+nav>a{
+  text-decoration: none;
+  color: #000;
+}
 .nav-title {
   font-weight: 800;
   font-size: 45px;
@@ -75,6 +82,16 @@ nav ul {
 nav li {
   list-style: none;
   margin-left: 50px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+nav li a{
+  text-decoration: none;
+  color: #fd6e0a;
+}
+nav li:hover{
+  color: #757575;
+  cursor: pointer;
 }
 
 /* banner style */
